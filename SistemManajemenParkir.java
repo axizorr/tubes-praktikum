@@ -48,9 +48,6 @@ public class SistemManajemenParkir {
             }
         } while (pilihan != 4);
     }
-    class jawa{
-        boolean hitam = false;
-    }
 }
 
 
