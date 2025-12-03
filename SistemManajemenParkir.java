@@ -9,6 +9,10 @@ public class SistemManajemenParkir {
         String waktuMasuk;
         int biayaParkir;
     }
+    class SlotParkir{
+        int slotNumber;
+        boolean isOccupied;
+    }
     static void Menu(){
         System.out.println("+===== Sistem Manajemen Parkir =====+");
         System.out.println("| 1. Masuk Parkir                   |");
@@ -20,7 +24,7 @@ public class SistemManajemenParkir {
     }
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        Kendaraan[] parkir = new Kendaraan[100];
+        Kendaraan[] kendaraan = new Kendaraan[100];
 
         int pilihan;
         do {
